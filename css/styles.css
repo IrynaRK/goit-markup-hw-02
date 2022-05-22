@@ -4,13 +4,6 @@ body {
     color: #000;
     background: #FFFFFF;
 }
-.header-item-link:hover {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #2196F3;
-}
 .header-item-link {
     font-weight: 500;
     font-size: 14px;
@@ -24,6 +17,9 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+}
+.header-item-link:hover {
+    color: #2196F3;
 }
 .header-tel-link {
     font-weight: 500;
@@ -87,19 +83,9 @@ color: #2196F3;
     border-style: none;
 }
 .menu-btn:hover {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-    width: 128px;
-    height: 38px;
-    left: 576px;
-    top: 174px;
     background: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+    color: #FFFFFF;
 }
 .about-title {
     font-weight: 700;
@@ -123,7 +109,6 @@ color: #2196F3;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    
 }
 .team {
     background: #F5F4FA;
@@ -173,7 +158,7 @@ color: #2196F3;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
         } 
