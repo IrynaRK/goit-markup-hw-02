@@ -4,14 +4,7 @@ body {
     color: #000;
     background: #FFFFFF;
 }
-.header-item {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: #212121;
-}
-.header-item {
+.header-item-link:hover {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -21,21 +14,21 @@ body {
 .header-item-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
 }
 .header-mail-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
 }
 .header-tel-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -72,10 +65,41 @@ color: #2196F3;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     text-align: center;
+    border-style: none;
 }
-.hero-button:focus {
+.hero-button:hover {
     background-color: #FFFFFF;
     color: #000;
+}
+.menu-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    width: 128px;
+    height: 38px;
+    left: 576px;
+    top: 174px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    border-style: none;
+}
+.menu-btn:hover {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    width: 128px;
+    height: 38px;
+    left: 576px;
+    top: 174px;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 .about-title {
     font-weight: 700;
@@ -134,7 +158,7 @@ color: #2196F3;
 .footer-link-adress {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -162,81 +186,23 @@ color: #2196F3;
 .header-portfolio {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
 }
 .header-item-portfolio {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #2196F3;
 }
 .header-mail-portfolio {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
-}
-.menu-btn-all {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-    width: 73px;
-    height: 38px;
-    left: 495px;
-    top: 174px;
-    background: #2196F3; 
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-}
-.menu-btn-all:focus {
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: #212121;
-        width: 128px;
-        height: 38px;
-        left: 576px;
-        top: 174px;
-        background: #F5F4FA;
-        border-radius: 4px;
-}
-.menu-btn {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    width: 128px;
-    height: 38px;
-    left: 576px;
-    top: 174px;
-    background: #F5F4FA;
-    border-radius: 4px;
-}
-.menu-btn:focus {
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: #FFFFFF;
-        width: 73px;
-        height: 38px;
-        left: 495px;
-        top: 174px;
-        background: #2196F3;
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-        border-radius: 4px;
 }
 .main-portfolio .header-portfolio {
     background: #FFFFFF;
@@ -244,14 +210,14 @@ color: #2196F3;
 .portfolio-title {
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
 }
 .portfolio-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: #757575;
 }
