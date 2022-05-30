@@ -88,10 +88,19 @@ a.current {
 .about-title,
 .team-header {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--main-color);
+}
+.about-title-img {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: none;
   color: var(--main-color);
 }
 .about-text {
